@@ -31,7 +31,7 @@ changelog:
 uploads:
   - name: production
     target: http://localhost:25478/upload
-    mode: binary
+    mode: archive
     method: POST
     username: goreleaser
     custom_headers:
