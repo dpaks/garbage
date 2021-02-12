@@ -34,3 +34,5 @@ uploads:
     mode: binary
     method: POST
     username: goreleaser
+    custom_headers:
+      token: f9403fc5f537b4ab332d
