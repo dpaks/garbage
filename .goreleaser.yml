@@ -30,7 +30,7 @@ changelog:
       - '^test:'
 uploads:
   - name: production
-    target: http://localhost:25478/upload?token=f9403fc5f537b4ab332d
+    target: http://localhost:25478/upload
     mode: binary
     method: POST
     username: goreleaser
