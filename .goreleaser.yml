@@ -11,8 +11,6 @@ builds:
       - CGO_ENABLED=0
     goos:
       - linux
-      - windows
-      - darwin
 archives:
   - replacements:
       darwin: Darwin
@@ -33,5 +31,6 @@ changelog:
 uploads:
   - name: production
     target: http://localhost:25478/upload
-    mode: archive
+    mode: binary
+    method: POST
     username: goreleaser
